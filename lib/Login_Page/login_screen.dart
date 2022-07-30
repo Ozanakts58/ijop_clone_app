@@ -208,7 +208,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                                       builder: (context) => ForgetPassword()));
                             },
                             child: const Text(
-                              'Forget Password',
+                              'Forget Password?',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 17,
