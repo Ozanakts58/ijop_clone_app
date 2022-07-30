@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928416383627",
+    "project_id": "ijop-clone-app",
+    "storage_bucket": "ijop-clone-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928416383627:android:4381284144eb5624138a8e",
+        "android_client_info": {
+          "package_name": "com.example.ijop_clone_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928416383627-f68kfld8ut3j2oa7g2uam9q1duhu9bn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMjkPeIZ1BYZUz8F2C_PVWSHlMwsNcbOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928416383627-f68kfld8ut3j2oa7g2uam9q1duhu9bn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
