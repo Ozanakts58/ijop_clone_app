@@ -124,7 +124,9 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                           keyboardType: TextInputType.emailAddress,
                           controller: _emailTextController,
                           validator: (value) {
-                            if (value!.isEmpty || !value.contains('@') || !value.contains('.com')) {
+                            if (value!.isEmpty ||
+                                !value.contains('@') ||
+                                !value.contains('.com')) {
                               return 'please enter a valid Email address';
                             } else {
                               return null;
@@ -210,7 +212,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                             child: const Text(
                               'Forget Password?',
                               style: TextStyle(
-                                color: Colors.white,
+                                color: Colors.blueAccent,
                                 fontSize: 17,
                                 fontStyle: FontStyle.italic,
                               ),
@@ -267,7 +269,7 @@ class _LoginState extends State<Login> with TickerProviderStateMixin {
                                           builder: (context) => SignUp())),
                                 text: 'Signup',
                                 style: const TextStyle(
-                                  color: Colors.cyan,
+                                  color: Colors.blueAccent,
                                   fontWeight: FontWeight.bold,
                                   fontSize: 16,
                                 ),

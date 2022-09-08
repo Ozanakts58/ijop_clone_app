@@ -1,8 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:ijop_clone_app/Login_Page/login_screen.dart';
-
-import 'SignUpPage/signup_screen.dart';
+import 'package:ijop_clone_app/user_state.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -58,7 +56,7 @@ class MyApp extends StatelessWidget {
               scaffoldBackgroundColor: Colors.black,
               primarySwatch: Colors.blue,
             ),
-            home: Login(),
+            home: UserState(),
           );
         });
   }
